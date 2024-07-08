@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="dash__body">
+                <div class="dash__left__sidebar">
+                    <div class="profile">
+                        <img src="./assests/Profile.png" alt="">
+                        <h4>Samantha</h4>
+                        <span class="email">Samantha@gmail.com</span>
+                        <span class="notfication">4</span>
+
+                    </div>
+                    <div class="dash__menue__container">
+                        <div class="dash__menue">
+                            <ul>
+                                <li><a href="">Dahboard</a></li>
+                                <li><a class="active" href="">Expenses</a></li>
+                                <li><a href="">wallets</a></li>
+                                <li><a href="">wallets</a></li>
+                                <li><a href="">Summary</a></li>
+                                <li><a href="">Accounts</a></li>
+                                <li><a href="">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dash__right__part">
+                    <div class="Left__content_container">
+
+                        <div class="bx__one">
+                            <div>
+                                <h3>Expenses</h3>
+                                <span>01 - 25 March, 2020</span>
+                            </div>
+                            <div>
+                                <img src="./assests/Group 9.png" alt="">
+                                <img src="./assests/Group 3 Copy 7.png" alt="">
+
+                            </div>
+                        </div>
+
+                        <div class="stats">
+                            <img src="./assests/Stats.png" alt="">
+                        </div>
+<!-- 
+                        <div>
+                            <canvas id="myChart"></canvas>
+                        </div> -->
+
+                        <div class="expenses">
+                            <div class="expenses__heading">
+                                <h4>Today</h4>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="expenses__item__lists">
+
+                                <div class="list__one">
+                                    <div class="list__content">
+                                        <div class="list__style">
+                                            <div>
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                            </div>
+                                            <div class="item__name">
+                                                <h5>Grocery</h5>
+                                                <span>5:12 pm • Belanja di pasar</span>
+                                            </div>
+                                        </div>
+                                        <div>-326.800</div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="list__one">
+                                    <div class="list__content">
+                                        <div class="list__style">
+                                            <div>
+                                                <i class="fa-solid fa-bus-simple"
+                                                    style="background-color: #B548C6;"></i>
+                                            </div>
+                                            <div class="item__name">
+                                                <h5>Tranportation</h5>
+                                                <span>5:12 pm • Naik bus umum</span>
+                                            </div>
+                                        </div>
+                                        <div>-15.000</div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="list__one">
+                                    <div class="list__content">
+                                        <div class="list__style">
+                                            <div>
+                                                <i class="fa-solid fa-house" style="background-color: #FF8700;"></i>
+                                            </div>
+                                            <div class="item__name">
+                                                <h5>Housing</h5>
+                                                <span>5:12 pm • Bayar Listrik</span>
+                                            </div>
+                                        </div>
+                                        <div>-185.750</div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="expenses">
+                            <div class="expenses__heading">
+                                <h4>Monday, 23 March 2020</h4>
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="expenses__item__lists">
+
+                                <div class="list__one">
+                                    <div class="list__content">
+                                        <div class="list__style">
+                                            <div>
+                                                <i class="fa-solid fa-bread-slice"
+                                                    style="background-color: #DC3434;"></i>
+                                            </div>
+                                            <div class="item__name">
+                                                <h5>Food and Drink</h5>
+                                                <span>5:12 pm • Makan Steak</span>
+                                            </div>
+                                        </div>
+                                        <div>-156.000</div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="list__one">
+                                    <div class="list__content">
+                                        <div class="list__style">
+                                            <div>
+                                                <i class="fa-solid fa-circle-play"
+                                                    style="background-color: #4BA83D;"></i>
+                                            </div>
+                                            <div class="item__name">
+                                                <h5>Entertainment</h5>
+                                                <span>5:12 pm • Nonton Bioskop</span>
+                                            </div>
+                                        </div>
+                                        <div>-35.200</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right__content_container">
+
+                        <h4>Where your money go?</h4>
+
+                        <div class="progress__bar__body">
+                            <div class="bar__one">
+                                <div class="bar__heading">
+                                    <span>Food and Drinks</span>
+                                    <span>872.400</span>
+                                </div>
+                                <div class="bar__main__body">
+                                    <div class="incresing__bar" style="width: 25%;">
+                                        <div class="incresing__bar__inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar__one">
+                                <div class="bar__heading">
+                                    <span>Shopping</span>
+                                    <span>1.378.200</span>
+                                </div>
+                                <div class="bar__main__body">
+                                    <div class="incresing__bar">
+                                        <div class="incresing__bar__inner" style="width: 40%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar__one">
+                                <div class="bar__heading">
+                                    <span>Housing</span>
+                                    <span>928.500</span>
+                                </div>
+                                <div class="bar__main__body">
+                                    <div class="incresing__bar">
+                                        <div class="incresing__bar__inner" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar__one">
+                                <div class="bar__heading">
+                                    <span>Transportation</span>
+                                    <span>420.700</span>
+                                </div>
+                                <div class="bar__main__body">
+                                    <div class="incresing__bar">
+                                        <div class="incresing__bar__inner" style="width: 20%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar__one">
+                                <div class="bar__heading">
+                                    <span>Vehicle</span>
+                                    <span>520.000</span>
+                                </div>
+                                <div class="bar__main__body">
+                                    <div class="incresing__bar">
+                                        <div class="incresing__bar__inner" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="card__container">
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="card__img__body">
+                                        <div class="card__img">
+                                            <div>
+                                                <img src="./assests/Illustration.png" alt="">
+                                            </div>
+                                            <div>
+                                                <img src="./assests/Illustration tree.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card__content">
+                                        <div>
+                                            <h5>Save More money</h5>
+                                            <p>
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                                minim.
+                                            </p>
+                                        </div>
+                                        <div class="btn"><button>VIEW TIPS</button></div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+
+    <!-- <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+      
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              borderWidth: 1
+            }]
+          },
+          options: {
+           events:[click],
+          }
+        });
+      </script> -->
+</body>
+
+</html>
